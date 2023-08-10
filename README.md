@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-![movie](https://github.com/Rogendo/cinema/assets/62094358/40a772ea-5469-4794-8eb9-e8e0c3a58651)
+![Uploading movie.png…]()
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
