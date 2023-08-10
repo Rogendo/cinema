@@ -1,7 +1,10 @@
+
 import React, { useState, useEffect } from "react";
-import MovieCard from "./MovieCard";
+import MovieCard from "./components/MovieCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
+import Icon from "./components/Icon";
+import Footer from "./components/Footer";
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=b518195c';
 
@@ -22,6 +25,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <Icon/>
       <h1>MovieCard</h1>
 
       <div className="search">
@@ -47,7 +51,10 @@ const App = () => {
         <div className="empty">
           <h2>No movies found</h2>
         </div>
+
       )}
+      <Footer/>
+
     </div>
   );
 };
